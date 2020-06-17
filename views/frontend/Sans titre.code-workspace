@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../mygit/elhadjibabacarsene"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "saquizz"
+	}
+}

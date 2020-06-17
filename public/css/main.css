@@ -1,0 +1,89 @@
+.height-window-100vh{height: 100vh;}
+.widht-50-percent{width: 50%;}
+.bg-blue-ciel{ background-color: #51BFD0;}
+.color-blue-ciel{color:#51BFD0}
+
+.cadre-form{
+    width: 90%;
+    height: 80%;
+    top:70px;
+    left: 6%;
+    box-shadow: 0px 4px 20px 0px rgba(0,0,0,40%);
+}
+.cadre-left{width: 51.5%;}
+
+#bg-login{
+    width:70%;
+    height: 70%;
+    left: 17%;
+    top: 50px;
+}
+.titre-cadre{
+    top: 85%;
+    left: 2%;
+}
+.lien-authen{
+    top: 3%;
+    left: 60%;
+    font-size: 14px;
+}
+
+.lien-authen a{ color: rgba(0,0,0,62%);}
+.lien-authen a:hover{color: black;}
+.lien-authen a:active{color: #E56946;}
+
+.cadre-logo{
+    top: 15%;
+    left: 48%;
+    width: 10%;
+    height: 20%;
+}
+.cadre-logo img{
+    width: 100%;
+    height: 100%;
+}
+#form-login-div{
+    top: 40%;
+    left: 25%;
+    width: 55%;
+}
+.input-text-login{
+    border: 0;
+    border: 1px solid #51BFD0;
+    width: 100%;
+    padding: 5px;
+}
+.input-text-login:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#btn-login{
+    width: 100%;
+    background-color: #51BFD0;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+.error{ font-size: 11px;}
+
+.ic-login-password{
+    width: 15px;
+    height: 20px;
+}
+
+#ic-login{
+    top: 9px;
+    left: 93%;
+}
+#ic-password{
+    top: 71px;
+    left: 93%;
+}
+
+/*Bou barer ba barry 1200 layy yam*/
+@media (max-width: 992px) {
+    .cadre-form{
+        box-shadow: none;
+    }
+}
